@@ -1,0 +1,113 @@
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards.box{
+    position: relative;            
+}
+.box1,.box2,.box3,.box4{
+    border:none;
+    padding:20px;
+    height:360px;
+    width:260px;
+    margin:20px;
+    margin-top:10%;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Poppins',Sans-Serif;
+    background: #00C9A7;
+    border-radius:50px 0px 55px 0px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.content{
+    font-size: 17px;
+}
+.fas{
+   font-size: 50px;
+}
+.cards a{
+    font-size:17px;
+    text-decoration: none;
+    border:1px solid ;
+    border-radius: 20px;
+    padding:4px;
+    margin:22px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    left:10%;
+    background-color: black;
+    color:white;
+    width:80%;
+    height:38px;
+}
+   .box1:hover a{
+    background-color:white;
+    color: #90ee90;
+    box-shadow: 10px 12px 4px 0px rgba(0, 0, 0, 0.24)inset;
+    border:1px solid #000;
+}
+.box2:hover a{
+    background-color:white;
+    color: #90ee90;
+    box-shadow: 10px 12px 4px 0px rgba(0, 0, 0, 0.24)inset;
+    border:1px solid #000;
+}
+.box3:hover a{
+    background-color:white;
+    color:#90ee90;
+    box-shadow: 10px 12px 4px 0px rgba(0, 0, 0, 0.24)inset;
+    border:1px solid #000;
+}
+.box4:hover a{
+    background-color:white;
+    color:#90ee90;
+    box-shadow: 10px 12px 4px 0px rgba(0, 0, 0, 0.24)inset;
+    border:1px solid #000;
+}
+.box1:hover{
+   background: #90ee90; 
+    border-radius:35px 34px 33px 33px;
+    border:1px solid #90ee90;
+    box-shadow:0 5px 10px #90ee90;
+}
+.box2:hover{
+    background:#90ee90;
+    border-radius:35px 34px 33px 33px;
+    border:1px solid #90ee90;
+    box-shadow:0 5px 10px #90ee90;
+}
+.box3:hover{
+    background: #90ee90;
+    border-radius:35px 34px 33px 33px;
+    border:1px solid #90ee90;
+    box-shadow:0 5px 10px #90ee90;
+}
+.box4:hover{
+    background: #90ee90;
+    border-radius:35px 34px 33px 33px;
+    border:1px solid #90ee90;
+    box-shadow:0 5px 10px #90ee90;
+}
+.head{
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+@media screen and (max-width:900px)
+{
+    .cards{
+        display: flex;
+        
+    }
+    .head{
+        text-align: center;
+        font-size: 14px;
+        position: absolute;
+    }
+}
