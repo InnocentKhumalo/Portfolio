@@ -71,6 +71,10 @@ nav li:first-child{
         width: 100%;
     }
 }
+@media(max-width: 600px){
+display: flex;
+flex-direction: column;
+}
 .Contents {
     float: right;
     margin-right: 100px;
