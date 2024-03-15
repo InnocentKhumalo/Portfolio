@@ -76,7 +76,21 @@
             display: block;
           }
         }
-  
+  .websites{
+border-radius: 25px;
+box-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+width: 25%;
+  }
+  .web1Image{
+justify-self: auto;
+  }
+
+  .web1Image:hover{
+    cursor: pointer;
+  }
         </style>
     <nav id="NavBar">
         <ul class="sidebar">
@@ -140,7 +154,16 @@
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
+        function openWeb1() {
+          window.location. href = "https://innocentkhumalo.github.io/LocalIT/index.html";
+        }
         </script>
-<h1 style="text-align: center; color: blue;">Kindly visit my website frequently for all software updates.Thank you!!</h1>
+      
+<h1 style="text-align: center; font-family: monospace; font-weight: bold; background-color: beige; background-size: cover; height: 100px; padding-top: 30px;">All Projects build by author:</h1>
+<div class="websites">
+<img class="web1Image" onclick=openWeb1() src="ec089670-8118-4aa3-bf06-344d3ae2fdf8_1140x641.jpg" alt="Website1 Image">
+<p style="font-weight: bold; background-color: transparent;">Local It <br><span style="font-size: 12px; color: #555; font-weight: lighter;">This is a platform <br> for marketing and adverting <br> of small & local business.</span></p>
+
+</div>
 </body>
 </html>
